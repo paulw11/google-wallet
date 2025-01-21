@@ -1,4 +1,4 @@
-import { LocalizedString } from "./LocalizedString.js"
+import { LocalizedString } from "../../common/LocalizedString.js"
 import { LoyaltyPointsBalance } from "./LoyaltyPointsBalance.js"
 export type LoyaltyPoints = {
 	/**

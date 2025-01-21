@@ -1,8 +1,8 @@
 import { GoogleAuth, GoogleAuthOptions } from "google-auth-library";
 import { LoyaltyClass } from "./types/retail/loyalty-card/LoyaltyClass.js";
-import { Pagination } from "./types/retail/loyalty-card/Pagination.js";
+import { Pagination } from "./types/common/Pagination.js";
 import { LoyaltyObject } from "./types/retail/loyalty-card/LoyaltyObject.js";
-import { AddMessageRequest } from "./types/retail/loyalty-card/AddMessageRequest.js";
+import { AddMessageRequest } from "./types/common/AddMessageRequest.js";
 export * from "./types/retail/loyalty-card/index.js";
 export class LoyaltyClient {
   private readonly httpClient: GoogleAuth;

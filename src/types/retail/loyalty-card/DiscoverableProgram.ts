@@ -1,6 +1,6 @@
 import { DiscoverableProgramMerchantSigninInfo } from "./DiscoverableProgramMerchantSigninInfo.js"
 import { DiscoverableProgramMerchantSignupInfo } from "./DiscoverableProgramMerchantSignupInfo.js"
-import { StateEnum } from "./State.js"
+import { StateEnum } from "../../common/State.js"
 export type DiscoverableProgram = {
 	/**
 	 * Information about the ability to signup and add a valuable for this program through a merchant site. Used when MERCHANT_HOSTED_SIGNUP is enabled.

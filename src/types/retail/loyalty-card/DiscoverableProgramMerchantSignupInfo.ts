@@ -1,5 +1,5 @@
 import { SharedDataTypeEnum } from "./SharedDataType.js"
-import { Uri } from "./Uri.js"
+import { Uri } from "../../common/Uri.js"
 export type DiscoverableProgramMerchantSignupInfo = {
 	/**
 	 * The URL to direct the user to for the merchant's signup site.

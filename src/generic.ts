@@ -1,8 +1,7 @@
 import { GoogleAuth, GoogleAuthOptions } from "google-auth-library";
 import { GenericClass } from "./types/generic/GenericClass.js";
 import { GenericObject } from "./types/generic/GenericObject.js";
-import { Pagination } from "./types/common/Pagination.js";
-export * from "./types/generic/index.js";
+import { Pagination } from "./types/common/Pagination.js";;
 export class GenericClient {
   private readonly httpClient: GoogleAuth;
   private readonly baseUrl =

@@ -1,8 +1,8 @@
 import { GoogleAuth, GoogleAuthOptions } from "google-auth-library";
 import { OfferClass } from "./types/retail/offer/OfferClass.js";
-import { Pagination } from "./types/retail/offer/Pagination.js";
+import { Pagination } from "./types/common/Pagination.js";
 import { OfferObject } from "./types/retail/offer/OfferObject.js";
-import { AddMessageRequest } from "./types/retail/offer/AddMessageRequest.js";
+import { AddMessageRequest } from "./types/common/AddMessageRequest.js";
 export * from "./types/retail/offer/index.js";
 export class OfferClient {
   private readonly httpClient: GoogleAuth;

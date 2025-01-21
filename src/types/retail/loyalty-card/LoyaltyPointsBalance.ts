@@ -1,4 +1,4 @@
-import { Money } from "./Money.js"
+import { Money } from "../../common/Money.js"
 export type LoyaltyPointsBalance = {
 	/**
 	 * The string form of a balance. Only one of these subtypes (string, int, double, money) should be populated.
