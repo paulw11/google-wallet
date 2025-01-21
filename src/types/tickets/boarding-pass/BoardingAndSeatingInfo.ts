@@ -1,6 +1,6 @@
 import { BoardingDoorEnum } from "./BoardingDoor.js"
-import { Image } from "./Image.js"
-import { LocalizedString } from "./LocalizedString.js"
+import { Image } from "../../common/Image.js"
+import { LocalizedString } from "../../common/LocalizedString.js"
 export type BoardingAndSeatingInfo = {
 	/**
 	 * Identifies what kind of resource this is. Value: the fixed string "walletobjects#boardingAndSeatingInfo".

@@ -1,4 +1,4 @@
-import { LocalizedString } from "./LocalizedString.js"
+import { LocalizedString } from "../../common/LocalizedString.js"
 export type AirportInfo = {
 	/**
 	 * Identifies what kind of resource this is. Value: the fixed string "walletobjects#airportInfo".

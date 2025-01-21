@@ -1,11 +1,11 @@
-import { CallbackOptions } from "./CallbackOptions.js"
-import { ClassTemplateInfo } from "./ClassTemplateInfo.js"
-import { ImageModuleData } from "./ImageModuleData.js"
-import { LinksModuleData } from "./LinksModuleData.js"
-import { MultipleDevicesAndHoldersAllowedStatusEnum } from "./MultipleDevicesAndHoldersAllowedStatus.js"
-import { SecurityAnimation } from "./SecurityAnimation.js"
-import { TextModuleData } from "./TextModuleData.js"
-import { ViewUnlockRequirementEnum } from "./ViewUnlockRequirement.js"
+import { CallbackOptions } from "../common/CallbackOptions.js"
+import { ClassTemplateInfo } from "../common/ClassTemplateInfo.js"
+import { ImageModuleData } from "../common/ImageModuleData.js"
+import { LinksModuleData } from "../common/LinksModuleData.js"
+import { MultipleDevicesAndHoldersAllowedStatusEnum } from "../common/MultipleDevicesAndHoldersAllowedStatus.js"
+import { SecurityAnimation } from "../common/SecurityAnimation.js"
+import { TextModuleData } from "../common/TextModuleData.js"
+import { ViewUnlockRequirementEnum } from "../common/ViewUnlockRequirement.js"
 export type GenericClass = {
 	/**
 	 * Required. The unique identifier for the class. This ID must be unique across all  from an issuer. This value needs to follow the format issuerID.identifier where issuerID is issued by Google and identifier is chosen by you. The unique identifier can only include alphanumeric characters, ., _, or -.
